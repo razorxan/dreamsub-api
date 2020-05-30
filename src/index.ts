@@ -2,8 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import DreamSub from './DreamSub';
 
-
-
 const app = express();
 
 app.use(cors());
