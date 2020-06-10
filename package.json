@@ -8,7 +8,8 @@
     "build": "node_modules/typescript/bin/tsc",
     "dev": "npm run build && node node_modules/nodemon/bin/nodemon dist/index.js",
     "prod": "node dist/index.js",
-    "start": "npm run build && npm run prod"
+    "start": "npm run build && npm run prod",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC",
